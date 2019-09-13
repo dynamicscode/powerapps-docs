@@ -17,10 +17,10 @@ This topic demonstrates how to import code components into Common Data Service. 
 
 Follow the steps below to create and import a solution file:
 
-1. Create a new solution project in the directory of your choice using the command `pac solution init --publisher-name <enter your publisher name> --publisher-prefix <enter your publisher name>` after `cd <your new folder>`. The solution project is used for packaging the custom component into a solution zip file which is used for importing to your environment.
+1. Create a new solution project in the directory of your choice using the command `pac solution init --publisherName <enter your publisher name> --customizationPrefix <enter your prefix here>` after `cd <your new folder>`. The solution project is used for packaging the custom component into a solution zip file which is used for importing to your environment.
 
    > [!NOTE]
-   > The `publisher-name` and `publisher-prefix` values must be unique to your environment.
+   > The `publisherName` and `customizationPrefix` values must be unique to your environment.
  
    
 2. Once the new solution project gets created, you need to refer to the location where the created component is located. You can add the reference using the below command. This reference, tells the solution project which code components should be added during the build, and you can add references to multiple components in a single solution project.
